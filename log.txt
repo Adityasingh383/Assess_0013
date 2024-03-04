@@ -1,0 +1,39 @@
+  499  pwd
+  500  cd github
+  501  mkdir Assess_0013
+  502  cd Assess_0013
+  503  git init
+  504  mkdir img
+  505  vi 1.c
+  506  vi 2.txt
+  507  vi 3.html
+  508  git status
+  509  git add .
+  510  git commit -m"first|master"
+  511  vi 1.c
+  512  git status
+  513  git add 1.c
+  514  git commit -m"second|master"
+  515  vi 2.txt
+  516  vi 3.html
+  517  git status
+  518  git commit -m"third|master"
+  519  git add .
+  520  git commit -m"third|master"
+  521  vi .gitignore
+  522  git add .gitignore
+  523  git commit -m"ignore|master"
+  524  cd img
+  525  vi .gitignore
+  526  git add .gitignore
+  527  git commit -m"ignore|img folder"
+  528  vi 1.c
+  529  vi 2.txt
+  530  vi 3.html
+  531  git status
+  532  git add 3.html
+  533  git commit -m"ignored c and txt file"
+  534  pwd
+  535  cd /c/Users/Aditya/github/Assess_0013
+  536  vi log.txt
+  537  history
